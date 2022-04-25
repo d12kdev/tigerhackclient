@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tgc",
+  "version": "${version}",
+  "name": "TigerHackClient",
+  "description": "TGC",
+  "authors": [
+    "d12k_mc"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tgc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "d12k.tgc.client.TgcClient"
+    ],
+    "main": [
+      "d12k.tgc.Tgc"
+    ]
+  },
+  "mixins": [
+    "tgc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.2",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
