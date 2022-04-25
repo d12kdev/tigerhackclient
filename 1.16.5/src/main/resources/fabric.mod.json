@@ -3,12 +3,12 @@
   "id": "tgc",
   "version": "${version}",
   "name": "TigerHackClient",
-  "description": "TGC",
+  "description": "MC hacking is fun!",
   "authors": [
-    "d12k_mc"
+    "d12k"
   ],
   "contact": {},
-  "license": "MIT",
+  "license": "All-Rights-Reserved",
   "icon": "assets/tgc/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -25,6 +25,6 @@
   "depends": {
     "fabricloader": ">=0.14.2",
     "fabric": "*",
-    "minecraft": "1.18.2"
+    "minecraft": "1.16.5"
   }
 }
